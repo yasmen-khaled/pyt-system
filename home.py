@@ -38,7 +38,6 @@ root.geometry("600x600")  # Increase window size
 frame = ctk.CTkFrame(master=root)
 frame.pack(pady=20, padx=40, fill='both', expand=True)
 
-# Add four buttons to the frame with increased size
 button1 = ctk.CTkButton(master=frame, text="Employees", command=button1_command, height=90, width=300)
 button1.pack(pady=12, padx=10)
 
